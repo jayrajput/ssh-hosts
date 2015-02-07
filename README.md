@@ -25,10 +25,19 @@ your ini file. Backup you existing .ssh/config before you decide to overwrite it
 ## More Reading:
 - http://docs.ansible.com/intro_inventory.html
 
+## Similar Tools:
+- https://github.com/dbrady/ssh-config
+- https://github.com/emre/storm
+
+The tools are good in there own way. I like the ini file way as there can be
+more tools built up over text files. Like you can just grep the ini file to
+find the HostName for a host. Also you can just send your ini file. Or if you
+have a project team managing a lot of servers, the ini file can be shared
+across all the teams.
+
 ## License
 
 CC0 Public Domain - http://creativecommons.org/publicdomain/zero/1.0/
-
 
 ## Contact me
 
